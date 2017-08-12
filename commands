@@ -1,0 +1,5 @@
+/* delete all spaces or tabs at the and of the line */
+:%s/\( \|\t\)*$//
+
+/* delete all blanks at te begin of the lines to retab correctly */
+:%s/^\( \|\t\)*//
