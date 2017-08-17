@@ -1,7 +1,7 @@
-/* delete all spaces or tabs at the and of the line */
+/* delete all spaces or tabs at the end of the line */
 :%s/\( \|\t\)*$//
 
-/* delete all blanks at te begin of the lines to retab correctly */
+/* delete all blanks at te begining of the lines to retab correctly */
 :%s/^\( \|\t\)*//
 
 /* replace 4 consecutives spaces by a \t */
