@@ -5,4 +5,4 @@
 :%s/^\( \|\t\)*//
 
 /* replace 4 consecutives spaces by a \t */
-:s/\(    \)/\t/g
+:%s/\(    \)/\t/g
